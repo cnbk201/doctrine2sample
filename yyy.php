@@ -2,18 +2,6 @@
 use Doctrine\ORM\Tools\Setup;
 use Doctrine\ORM\EntityManager;
 
-require_once "Doctrine/ORM/Tools/Setup.php";
-require_once "Doctrine\Common\Annotations\SimpleAnnotationReader.php";
-require_once "Doctrine\Common\Version.php";
-require_once "Doctrine\Common\Annotations\AnnotationRegistry.php";
-require_once "Doctrine\DBAL\Configuration.php";
-require_once "Doctrine\ORM\Configuration.php";
-require_once "Doctrine\Common\Cache\Cache.php";
-require_once "Doctrine/Common/Cache/CacheProvider.php";
-require_once "Doctrine/Common/Cache/ArrayCache.php";
-
-
-
 $paths = array("/en");
 $isDevMode = false;
 
