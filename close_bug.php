@@ -1,5 +1,4 @@
 <?php
-
 // close_bug.php
 require_once "bootstrap.php";
 
